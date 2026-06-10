@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "麻将记分",
+    "slug": "mjscore",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#0f1a14"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f1a14"
+      },
+      "package": "com.mjscore.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.mjscore.app",
+      "supportsTablet": false,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "18ccd332-a019-49ac-a627-b562238fd82c"
+      }
+    },
+    "owner": "ossoft"
+  }
+}
